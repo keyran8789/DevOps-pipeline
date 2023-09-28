@@ -1,12 +1,5 @@
 ## Provider's Example
 
-# Configure the AWS Provider
-provider "aws" {
-  version    = "3.53.0"
-  access_key = "AKIA27PNP4UWZXLLRN76"
-  secret_key = "iNczFrfPfNQKR6HHankpiiMr/LhnxgGKG+X/DSCA"
-  region     = "us-east-1"
-}
 
 # Create an EC2 instance
 resource "aws_instance" "example" {
